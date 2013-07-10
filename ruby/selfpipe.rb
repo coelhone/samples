@@ -1,3 +1,11 @@
+# The Self-Pipe Trick
+# 
+# readings:
+# http://rubysource.com/the-self-pipe-trick-explained/
+# http://evbergen.home.xs4all.nl/unix-signals.html
+# https://github.com/ddollar/foreman/blob/master/lib/foreman/engine.rb
+# https://github.com/rspivak/csdesign/blob/master/selfpipe.py
+# http://web.archive.org/web/20130601072606/http://cr.yp.to/docs/selfpipe.html
 class SelfPipeSample
   HANDLED_SIGNALS = [ :TERM, :USR1, :USR2 ]
 
