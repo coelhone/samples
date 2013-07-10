@@ -53,6 +53,8 @@ class SelfPipeSample
     retry
   end
 
+  # select should listen to more file descriptors if needed, also a block
+  # of code should be created in order to process those signals
   def signals_listener
     begin
       loop do
